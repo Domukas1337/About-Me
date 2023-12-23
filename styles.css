@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://uhdwallpapers.org/download/macos-monterey_897687/1920x1080/");
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid slategray;
+    border-radius: 20px;
+}
+.content{
+    display: none;
+}
+.content.active{
+    display: block;
+}
