@@ -9,12 +9,12 @@
 </head>
     <body>
         <div id="wrapper" class="wrapper">
-            <div>
-                <button onclick="switchContent(0)">WhoAmI?</button>
-                <button onclick="switchContent(1)">My skills</button>
-                <button onclick="switchContent(2)">Contacts</button>
+            <div id="button-wrapper" class="button-wrapper">
+                <button onclick="switchContent(0), activeButton(0)" class="buttons" id="button0">WhoAmI?</button>
+                <button onclick="switchContent(1), activeButton(1)" class="buttons" id="button1">My skills</button>
+                <button onclick="switchContent(2), activeButton(2)" class="buttons" id="button2">Contacts</button>
             </div>
-            <div id="content-wrapper">
+            <div id="content">
                 <div id="content0" class="content">
                     <p>My name is <b>Adrian</b>, I'm 23 and I love coding.</p>
                 </div>

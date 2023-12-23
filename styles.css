@@ -11,8 +11,22 @@ body{
     height: 97vh;
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.6);
-    border: 2px solid slategray;
+    box-shadow: 1 1 3px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
+}
+.buttons{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+.buttons:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: ease-in-out 0.09s;
+}
+.buttons.active{
+    background-color: aquamarine;
+    transition: ease-in-out 0.2s;
 }
 .content{
     display: none;
